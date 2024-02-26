@@ -2,49 +2,49 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from Venom import VenomX
 
 START = f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ [{VenomX.name}](t.me/{VenomX.username})**
-**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
+**๏ ʙᴇʏ, [{VenomX.name}](t.me/{VenomX.username})-ə xoş gəlmisiniz**
+**➻ ʙɪr AI əsaslı çatbotum**
 **──────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
-<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ.||</b>
+**➻ İSTİFADƏ /chatbot [ON/OFF]**
+<b>||๏ YARDIM üçün kömək düyməsini basın.||</b>
 """
 
 HELP_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {VenomX.name}**</u>
-<u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
-**ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/**
+<u>**{VenomX.name}- üçün əmr**</u>
+<u>**aşağıda verilmişdir!**</u>
+**BÜTÜN ƏMR-LƏRİ / İL İSTİFADƏ OLUNA BİLƏR:/**
 **──────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
 TOOLS_DATA_READ = f"""
-<u>**ᴛᴏᴏʟs ғᴏʀ {VenomX.name} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ /repo ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
+<u>**{VenomX.name}- üçün alətlər:**</u>
+**➻ QAYNAQ /repo ÜÇÜN MƏNBƏ KODUNU ALMAQ!**
 **──────────────**
-**➻ ᴜsᴇ /ping ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {VenomX.name}**
+**➻ QAYNAQ /ping ÜÇÜN {VenomX.name}- in PİNGİNİ YOXLAYIN**
 **──────────────**
-**➻ ᴜsᴇ /id ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ ᴀɴᴅ ᴍᴇssᴀɢᴇ ɪᴅ ᴀʟʟ ɪɴ ᴀ sɪɴɢʟᴇ ᴍᴇssᴀɢᴇ.**
+**➻ ÖZ İSTİFADƏÇİ İD, SÖHBƏT İD VƏ MESAJ İD-İNİ ƏLDƏ ETMƏK ÜÇÜN /id-İ İSTİFADƏ EDİN.**
 **──────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
 CHATBOT_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {VenomX.name}**</u>
-**➻ ᴜsᴇ /chatbot ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
+<u>**{VenomX.name}- üçün əmr**</u>
+**➻ /chatbot İSTİFADƏ ETMƏK ÜÇÜN CHATBOTU AKTİV ETMƏK/QEYD ETMƏK**
+**๏ Qeyd ➻ YUXARIDAKI ƏMR YALNIZCA QRUPDA İŞLƏYİR!!**
 **───────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{VenomX.name}](https://t.me/{VenomX.username}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/venombolteop/ChatbotV2)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**Salam, [{VenomX.name}](https://t.me/{VenomX.username})- in mənbə kodu aşağıda verilmişdir.**\n**XAHIŞ EDİRƏM REPO-Nİ FORK EDİN VƏ YILDIZI VERİN ✯**\n**──────────────────**\n**MƏNBƏ KODU [burada](https://github.com/venombolteop/ChatbotV2)**\n**──────────────────**\n**ƏGƏR HANSI-SA PROBLEMİ BAŞ VERƏRSƏ, ONDAN SONRA [DƏSTƏK QURULUŞUNA](https://t.me/{SUPPORT_GRP}) MÜRACİƏT EDİN.\n<b>||©️ @{OWNER_USERNAME}||</b>"
 
-ADMIN_READ = f"sᴏᴏɴ"
+ADMIN_READ = f"Təzədir"
 
 ABOUT_READ = f"""
-**➻ [{VenomX.name}](https://t.me/{VenomX.username}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
-**➻ [{VenomX.name}](https://t.me/{VenomX.username}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.**
-**➻ ʜᴇʟᴘs ʏᴏᴜ ɪɴ ᴀᴄᴛɪᴠᴀᴛɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs.**
-**➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ**
+**➻ [{VenomX.name}](https://t.me/{VenomX.username})- in bir AI əsaslı çat-botdur.**
+**➻ [{VenomX.name}](https://t.me/{VenomX.username})- avtomatik olaraq istifadəçiyə cavab verir.**
+**➻ Qruplarınızı aktivləşdirməyinizə kömək edir.**
+**➻ [Python](https://www.python.org) ilə yazılıb [MongoDB](https://www.mongodb.com) kimi verilənlər bazası ilə.**
 **──────────────**
-**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{VenomX.name}](https://t.me/{VenomX.username})**
+**➻ [{VenomX.name}](https://t.me/{VenomX.username})- haqqında əsas kömək və məlumat üçün aşağıda verilmiş düymələrə basın**
 """
