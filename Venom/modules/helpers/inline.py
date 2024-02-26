@@ -81,8 +81,8 @@ MUSIC_BACK_BTN = [
 
 S_BACK = [
     [
-        InlineKeyboardButton(text="", callback_data="SBACK"),
-        InlineKeyboardButton(text="🌲 ᴄʟᴏsᴇ 🌲", callback_data="CLOSE"),
+        InlineKeyboardButton(text="🔙 ɢᴇʀi", callback_data="SBACK"),
+        InlineKeyboardButton(text="çɪxɪş 🚫", callback_data="CLOSE"),
     ],
 ]
 
