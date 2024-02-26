@@ -30,11 +30,11 @@ async def start(_, m: Message):
             text=random.choice(EMOJIOS),
         )
         await asyncio.sleep(1.3)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ ѕтαятιиg..__")
+        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ__")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ sтαятιиg.....__")
+        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ...__")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ sтαятιиg..__")
+        await accha.edit("__ᴄʜᴀᴛʙᴏᴛ ʙᴀşʟᴀʏɪʀ...__")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(sticker=random.choice(STICKER))
@@ -42,7 +42,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ {VenomX.name}**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
+            caption=f"""**๏ Salam👋 Mənim Adım {VenomX.name}**\n**Qruplar üçün yaradılmış Çat Botuyam.**\n**──────────────**\n**➻ İstifadəsi /chatbot [on/off]**\n<b>||๏ Daha Ətraflı məlumat üçün Kömək Buttonuna Toxununun.||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
@@ -67,7 +67,7 @@ async def help(client: VenomX, m: Message):
     else:
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption="**ʜᴇʏ, ᴘᴍ ᴍᴇ ғᴏʀ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs!**",
+            caption="**Salam, kömək  üçün mənə şəxsidə start verin!**",
             reply_markup=InlineKeyboardMarkup(HELP_BUTN),
         )
         await add_served_chat(m.chat.id)
