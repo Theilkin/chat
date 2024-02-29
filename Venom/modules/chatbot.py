@@ -16,7 +16,7 @@ from Venom.modules.helpers import CHATBOT_ON, is_admins
 @adminsOnly("can_delete_messages")
 async def chaton_(_, m: Message):
     await m.reply_text(
-        f"ᴄʜᴀᴛ: {m.chat.title}\n**ChatBot - u aktivləşdirmək üçün /chatbot (enable/disable) yazın.**",
+        f"ᴄʜᴀᴛ: {m.chat.title}\n**ChatBot - u aktivləşdirmək üçün /chatbot yazın.**",
         reply_markup=InlineKeyboardMarkup(CHATBOT_ON),
     )
     return
