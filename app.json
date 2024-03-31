@@ -1,1 +1,42 @@
-nehmedov peysərdi!
+{
+  "isim" : " ChatBot " ,
+  "description" : " Bir telgraf botu " ,
+  "logo" : " https://te.legra.ph/file/dc32c85de4f1ad9b3456b.jpg " ,
+  "anahtar kelimeler" : [
+    " Sohbet Robotu " ,
+    " mongodb " ,
+    " piton " ,
+    " pirogram "
+  ],
+    "derleme paketleri" : [{
+    "url" : " heroku/python "
+  }],
+  "depo" : " https://github.com/venombolteop/ChatbotV2 " ,
+  "çevre" : {
+    "API_ID" : {
+      "description" : " Bu değeri my.telegram.org/apps adresinden alın. " ,
+      "gerekli" : doğru ,
+      "değer" : " "
+    },
+    "API_HASH" : {
+      "description" : " Bu değeri my.telegram.org/apps adresinden alın. " ,
+      "gerekli" : doğru ,
+      "değer" : " "
+    },
+    "BOT_TOKEN" : {
+      "description" : " @BotFather'dan bir Bot jetonu " ,
+      "gerekli" : doğru ,
+      "değer" : " "
+    },
+    "MONGO_URL" : {
+      "description" : " https://cloud.mongodb.com adresinden bir mongodb URL'si alın. " ,
+      "gerekli" : doğru ,
+      "değer" : " "
+    },
+    "SAHİP_ID" : {
+      "description" : " Botun sahibi olarak anılacak kullanıcının kullanıcı kimliği. " ,
+      "gerekli" : doğru ,
+      "değer" : " "
+    }
+  }
+}
