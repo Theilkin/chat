@@ -1,42 +1,42 @@
 {
-  "isim" : " ChatBot " ,
-  "description" : " Bir telgraf botu " ,
-  "logo" : " https://te.legra.ph/file/dc32c85de4f1ad9b3456b.jpg " ,
-  "anahtar kelimeler" : [
-    " Sohbet Robotu " ,
-    " mongodb " ,
-    " piton " ,
-    " pirogram "
+  "name": "ChatBot",
+  "description": "A telegram bot",
+  "logo": "https://te.legra.ph/file/dc32c85de4f1ad9b3456b.jpg",
+  "keywords": [
+    "Chatbot",
+    "mongodb",
+    "python",
+    "pyrogram"
   ],
-    "derleme paketleri" : [{
-    "url" : " heroku/python "
+    "buildpacks": [{
+    "url": "heroku/python"
   }],
-  "depo" : " https://github.com/venombolteop/ChatbotV2 " ,
-  "çevre" : {
-    "API_ID" : {
-      "description" : " Bu değeri my.telegram.org/apps adresinden alın. " ,
-      "gerekli" : doğru ,
-      "değer" : " "
+  "repository": "https://github.com/venombolteop/ChatbotV2",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": "29990172"
     },
-    "API_HASH" : {
-      "description" : " Bu değeri my.telegram.org/apps adresinden alın. " ,
-      "gerekli" : doğru ,
-      "değer" : " "
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": "d76936ea313a140516435843f37959f3"
     },
-    "BOT_TOKEN" : {
-      "description" : " @BotFather'dan bir Bot jetonu " ,
-      "gerekli" : doğru ,
-      "değer" : " "
+    "BOT_TOKEN": {
+      "description": "A Bot token from @BotFather",
+      "required": true,
+      "value": "7105841094:AAGPNyBzRx0WXwjFrCoUO_VLWXyTBSROGws"
     },
-    "MONGO_URL" : {
-      "description" : " https://cloud.mongodb.com adresinden bir mongodb URL'si alın. " ,
-      "gerekli" : doğru ,
-      "değer" : " "
+    "MONGO_URL": {
+      "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "required": true,
+      "value": "mongodb+srv://fridabisov26:feridabusov2@cluster0.rrmqdo9.mongodb.net/?retryWrites=true&w=majority"
     },
-    "SAHİP_ID" : {
-      "description" : " Botun sahibi olarak anılacak kullanıcının kullanıcı kimliği. " ,
-      "gerekli" : doğru ,
-      "değer" : " "
+    "OWNER_ID": {
+      "description": "User id of the user who will known as owner of the bot.",
+      "required": true,
+      "value": "7117800544"
     }
   }
 }
