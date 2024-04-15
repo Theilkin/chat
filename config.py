@@ -4,14 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29990172"))
-API_HASH = getenv("API_HASH", "d76936ea313a140516435843f37959f3")
-BOT_TOKEN = getenv("BOT_TOKEN", "7105841094:AAEm5ji9QdSI89xJbi388j5lwuW_nNPZBRY")
-OWNER_ID = int(getenv("OWNER_ID", "7117800544"))
-MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
-SUPPORT_GRP = getenv("SUPPORT_GRP", "")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "RoBotum")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Xashimli")
+API_ID = int(getenv("API_ID", "11480225"))
+API_HASH = getenv("API_HASH", "4e246bace68111a0d82fa2ce96e0e5e3")
+BOT_TOKEN = getenv("BOT_TOKEN", "6412389950:AAHlzn5MR58ULGBf33Lxg2iV4o_FEszLoCs")
+OWNER_ID = int(getenv("OWNER_ID", "6671958102"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://fridabisov26:feridabusov2@cluster0.rrmqdo9.mongodb.net/?retryWrites=true&w=majority")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "GenclikChats")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "Botumsan")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ismayolfh")
 
 # Random Start Images
 IMG = [
